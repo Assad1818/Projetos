@@ -60,7 +60,7 @@ public class Jogo {
         }
 
         if (!acertou) {
-            System.out.println("😢 Você perdeu! O número era: " + numeroSecreto);
+            System.out.println("😢 Você perdeu! O número era " + numeroSecreto);
         }
 
         scanner.close();
